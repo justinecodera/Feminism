@@ -1,0 +1,198 @@
+body {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("image/bg.png");
+	align-items: center;
+	height: 1000px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+h1 {
+	text-align: center;
+
+}
+
+.navbar{
+	margin: 0;
+	display: flex;
+	justify-content: safe right;
+}
+
+.navbar ul li {
+	list-style: none;
+	display: inline-block;
+	margin-top: 100px;
+	margin: 0 20px;
+	position: relative;
+	font-size: 20px;
+}
+
+nav{
+	height: 60px;
+
+}
+
+.navbar ul{
+padding: 0;
+margin: 0;
+float: right;
+margin-right: 50px;
+
+
+}
+
+.navbar ul li a{
+display: block;
+padding: 0 15px;
+color: white;
+text-decoration: none;
+line-height: 60px;
+font-size: 20px;
+
+}
+
+.navbar ul li a:hover{
+	background: rgb(245, 245, 220,0.5);
+	border-radius: 30px;
+}
+
+.navbar ul ul{
+	position: absolute;
+	top: 60px;
+	display: none;
+	background: rgb(0,0,0, 0.3);
+	
+}
+.navbar ul li:hover > ul{
+	display: block;
+
+}
+
+.navbar ul ul li{
+	width: 250px;
+	float: none;
+	display: list-item;
+	position: relative;
+}
+
+.content {
+	width: 50%;
+	position:  absolute;
+	text-align: left;
+	color:  #fff;
+}
+
+.content h1{
+	font-size: 70px;
+	margin-top: 130px;
+	margin-left: 200px;
+}
+
+.content h2{
+	font-size: 40px;
+	color: rgb(245, 245, 220,0.5);
+	margin-top: -50px;
+	margin-left: 250px;
+}
+
+.content p{
+	font-size: 20px;
+	margin-top: -20px;
+	margin-left: 170px;
+
+}
+
+button {
+	padding: 15px 0;
+	width: 120px;
+	text-align: center;
+	margin: 20px 10px;
+	border-radius: 25px;
+	font-weight: bold;
+	border: 2px solid #C19A6B;
+	background:  transparent;
+	color: #fff;
+	cursor:  pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+span{
+	background: rgb(193, 154, 107,0.5);
+	height: 100%;
+	width:  0;
+	border-radius: 25px;
+	position:  absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition:  0.5s;
+}
+
+.btn{
+	margin-left: 250px;
+
+}
+
+button:hover span{
+	width:  100%;
+}
+
+button:hover{
+	border: none;
+}
+
+img {
+
+  display: block;
+  margin-left: 290px;
+  margin-right: auto;
+  margin-top: -25px;
+  height: 590px;
+
+}
+
+/* By: Faa , this part lang ng css ang dinagdag and minodify ko */
+.content p{
+	color: white;
+	text-align: justify;
+	font-size: 18px;
+}
+
+.equality {
+	margin-left: 165px;
+  }
+  
+h1{
+	color: white;
+}
+
+h3{
+	margin-left: 100px;
+	color: #ffebbb;
+}
+
+a{
+	color: #dde0ab;
+	font-size: 16px;
+}
+
+li {
+	margin-left: 150px;
+	
+}
+
+.button {
+	background-color: #C19A6B;
+	font-family: courier new;
+	height: 32px;
+	border-radius: 20px;
+	float: right;
+	color: white;
+	margin: 5px 5px 0px 0px;
+	border: none;
+	cursor: pointer;
+}
+/*By: Faa , end line*/
+
